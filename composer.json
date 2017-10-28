@@ -1,6 +1,7 @@
 {
     "name": "sroze/openwhisk-bundle",
     "description": "Run your Symfony application in a Openwhisk function",
+    "minimum-stability": "beta",
     "autoload": {
         "psr-4": {
             "Sam\\Openwhisk\\Bridge\\Symfony\\": "src/"
@@ -8,5 +9,8 @@
     },
     "require": {
         "symfony/http-foundation": "~3.4|~4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
     }
 }
