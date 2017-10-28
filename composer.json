@@ -1,0 +1,6 @@
+{
+    "name": "sroze/openwhisk-bundle",
+    "require": {
+        "symfony/http-foundation": "~3.4|~4.0"
+    }
+}
