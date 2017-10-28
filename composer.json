@@ -1,5 +1,6 @@
 {
     "name": "sroze/openwhisk-bundle",
+    "description": "Run your Symfony application in a Openwhisk function",
     "autoload": {
         "psr-4": {
             "Sam\\Openwhisk\\Bridge\\Symfony\\": "src/"
