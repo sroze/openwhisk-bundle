@@ -1,5 +1,10 @@
 {
     "name": "sroze/openwhisk-bundle",
+    "autoload": {
+        "psr-4": {
+            "Sam\\Openwhisk\\Bridge\\Symfony": "src/"
+        }
+    },
     "require": {
         "symfony/http-foundation": "~3.4|~4.0"
     }
