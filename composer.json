@@ -2,7 +2,7 @@
     "name": "sroze/openwhisk-bundle",
     "autoload": {
         "psr-4": {
-            "Sam\\Openwhisk\\Bridge\\Symfony": "src/"
+            "Sam\\Openwhisk\\Bridge\\Symfony\\": "src/"
         }
     },
     "require": {
