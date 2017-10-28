@@ -2,6 +2,7 @@
     "name": "sroze/openwhisk-bundle",
     "description": "Run your Symfony application in a Openwhisk function",
     "minimum-stability": "beta",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sam\\Openwhisk\\Bridge\\Symfony\\": "src/"
